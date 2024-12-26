@@ -1,0 +1,38 @@
+
+.column2 {
+nav a {
+    justify-content: center;
+    border: solid ;
+    display:grid;
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: "Libre Franklin";
+    color: rgb(214, 212, 212);
+    background: rgb(13, 13, 14);
+    padding: 13px;
+    border-radius: 5px;
+    margin: 50px;
+    margin-left: 50px;
+    width: 300px;
+    transition:  0.7s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.navbuttons {
+    background-image: url("samurai3.jpg");
+    border-radius: 30px;
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    width: 26rem;
+    height: 100%;
+    
+    
+}
+   
+}
+
