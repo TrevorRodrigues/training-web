@@ -1,0 +1,97 @@
+
+
+body,html {
+    margin: 1;
+}
+
+.column1 {
+    grid-area: header;
+}
+
+.column2 {
+    grid-area: sidebar;
+}
+
+.column3 {
+    grid-area: content;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: "header header" "sidebar content" "sidebar content";   
+}
+
+
+body { 
+    background-image: url("denismma.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3px;
+}
+
+
+.column1 {
+h1 {
+    color: darkgoldenrod;
+    padding-left: 20px;
+    font-family: "Libre Franklin";
+    text-align: center;
+    font-size: 200px;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    border: solid 40px black;
+    border-radius: 20px;
+    text-shadow: 10px 0px 6px black ;
+    box-shadow: 2px 2px 2px rgba(254, 19, 137, 0.959);
+    margin-bottom: 0;   
+}
+}
+
+
+.column3 {
+h2 {
+    color: rgba(254, 19, 137, 0.959);
+    font-family: "Libre Franklin";
+    text-align: right;
+    font-size: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px black; 
+    border: solid;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.h22 {
+    color: rgba(254, 19, 137, 0.959);
+    font-family: "Libre Franklin";
+    text-align: right;
+    font-size: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 3px 3px black; 
+    border: solid;
+    background-color: black;
+    margin-left: 550px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: "Libre Franklin";
+    text-align: right;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 60px;
+    border: solid;
+    background-color: black;
+    margin-left: 580px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+}
+
